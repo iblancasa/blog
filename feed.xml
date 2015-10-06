@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">iblancasa - Blog</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
+<link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
+<updated>2015-10-06T12:37:06+00:00</updated>
+<id>http://blog.iblancasa.com/</id>
+<author>
+  <name>Israel Blancas</name>
+  <uri>http://blog.iblancasa.com/</uri>
+  
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Hola mundo]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/hola-mundo/" />
+  <id>http://blog.iblancasa.com/article/hola-mundo</id>
+  <updated>2015-10-06T00:00:00-00:00</updated>
+  <published>2015-10-06T00:00:00+00:00</published>
+  
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Tras mucho pensarlo, decidí pasar de Wordpress y empezar a utilizar Jekyll. ¿Por qué?&lt;/p&gt;
+
+&lt;p&gt;Durante algunos años, para distintos tipos de cosas, he utilizado Wordpress. Siempre he tenido, entre otras, la misma queja: el sitio web, pese a tener poco contenido y un número bastante bajo de visitas, siempre ha ido muy lento. Incluso si utilizaba las plantillas por defecto. Por si el problema había sido a lo largo de todo este tiempo la utilización de hostings o VPS de mala calidad, probé a utilizar la plataforma PaaS (&lt;em&gt;Platform as a service&lt;/em&gt;) de &lt;a href=&quot;http://www.redhat.com/es/global/spain&quot;&gt;Red Hat&lt;/a&gt;, &lt;a href=&quot;https://www.openshift.com/&quot;&gt;OpenShift&lt;/a&gt;. A pesar de utilizar un modelo &lt;em&gt;premium&lt;/em&gt;, el resultado  fue el mismo.&lt;/p&gt;
+
+&lt;p&gt;La necesidad de instalar sistemas de seguridad para evitar ataques o estar pendiente de las actualizaciones (que pueden ser críticas para mantener tu sitio web en pie) han sido otras de las razones.&lt;/p&gt;
+
+&lt;p&gt;La obligación de cumplir la &lt;a href=&quot;http://www.lssi.gob.es/&quot;&gt;LSSI&lt;/a&gt; y la &lt;a href=&quot;https://www.agpd.es/portalwebAGPD/canaldocumentacion/informes_juridicos/reglamento_lopd/index-ides-idphp.php&quot;&gt;LOPD&lt;/a&gt; me llevaron a desactivar los comentarios del blog (que tampoco necesitaba), crear el típico documento declarando qué cookies utilizaba…&lt;/p&gt;
+
+&lt;p&gt;Todo esto me hizo abandonar Wordpress. Estudié cómo funcionaban otras plataformas como &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;, &lt;a href=&quot;https://www.blogger.com/home&quot;&gt;Blogger&lt;/a&gt; (que nunca me terminó de convencer) o &lt;a href=&quot;http://octopress.org/&quot;&gt;Octopress&lt;/a&gt; (que funciona sobre Jekyll).&lt;/p&gt;
+
+&lt;p&gt;No quise utilizar un sistema que me obligase a estar en el hosting/cloud de la empresa que lo desarrolla (por lo que ya eliminaba unas cuantas posibilidades).&lt;/p&gt;
+
+&lt;p&gt;Por otro lado, pensé en los problemas que había encontrado respecto a velocidad de respuesta. ¿Qué hay más rápido que una web realizada solo en HTML, CSS y JavaScript? Por lo que desestimé cualquier sistema generado de forma dinámica: nada de preguntar a bases de datos. El sistema que más me llamó la atención (y en el que entendí un mejor soporte) fue Jekyll.&lt;/p&gt;
+
+&lt;p&gt;En cuanto a hosting, simplemente estoy utilizando &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, por lo que no me tengo que preocupar por la calidad (que es bastante buena) o de pagarlo. En vez de utilizar directamente la opción que nos da GitHub para construir nuestro blog Jekyll, hice un fork de una plantilla que me gustó y soy yo mismo quien construye los ficheros que forman la web, utilizando &lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis&lt;/a&gt; (de esta forma, añado algunas cosas como la posibilidad de comprimir las imágenes y las páginas generadas en HTML, con lo que la velocidad de respuesta aumenta algo, aunque tampoco es algo notable).&lt;/p&gt;
+
+&lt;p&gt;El subirlo a GitHub ayuda, además, a que lo que escriba se vea reflejado en más de un sitio.&lt;/p&gt;
+
+&lt;p&gt;Empiezo con esto una nueva etapa&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/hola-mundo/&quot;&gt;Hola mundo&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
