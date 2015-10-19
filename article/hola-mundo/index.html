@@ -1,2 +1,214 @@
-<!DOCTYPE html><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]--><!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]--><!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"><title>Hola mundo &#8211; iblancasa - Blog</title><meta name="description" content="Inicio el blog y explico por qué razones he decidido abandonar Wordpress y unirme a Jekyll"><meta name="keywords" content="nuevo, post, hola mundo"><meta name="twitter:title" content="Hola mundo"><meta name="twitter:description" content="Inicio el blog y explico por qué razones he decidido abandonar Wordpress y unirme a Jekyll"><meta name="twitter:site" content="@iblancasa"><meta name="twitter:creator" content="@iblancasa"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="http://blog.iblancasa.com/images/default-thumb.png"><meta property="og:locale" content="es_ES"><meta property="og:type" content="article"><meta property="og:title" content="Hola mundo"><meta property="og:description" content="Inicio el blog y explico por qué razones he decidido abandonar Wordpress y unirme a Jekyll"><meta property="og:url" content="http://blog.iblancasa.com/article/hola-mundo/"><meta property="og:site_name" content="iblancasa - Blog"><meta property="og:image" content="http://blog.iblancasa.com/images/default-thumb.png"><link rel="canonical" href="http://blog.iblancasa.com/article/hola-mundo/"><link href="http://blog.iblancasa.com/feed.xml" type="application/atom+xml" rel="alternate" title="iblancasa - Blog Feed"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="http://blog.iblancasa.com/assets/css/main.css"><meta http-equiv="cleartype" content="on"><!--[if lt IE 9]><script src="http://blog.iblancasa.com/assets/js/vendor/html5shiv.min.js"></script>
-	<script src="http://blog.iblancasa.com/assets/js/vendor/respond.min.js"></script><![endif]--><script src="http://blog.iblancasa.com/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script><link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic" rel="stylesheet" type="text/css"></head><body class="post"><!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]--><div class="navigation-wrapper"><div class="site-name"><a href="http://blog.iblancasa.com/">iblancasa - Blog</a></div><div class="top-navigation"><nav role="navigation" id="site-nav" class="nav"><ul><li><a href="http://iblancasa.com" target="_blank">Autor</a></li><li><a href="http://blog.iblancasa.com/posts/">Todas las publicaciones</a></li></ul></nav></div></div><div id="main" role="main"><div class="article-author-side"><div itemscope itemtype="http://schema.org/Person"><img src="http://blog.iblancasa.com/images/bio-photo.jpg" class="bio-photo" alt="Israel Blancas bio photo"><h3 itemprop="name">Israel Blancas</h3><p></p><a href="http://twitter.com/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a> <a href="http://linkedin.com/in/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a> <a href="http://instagram.com/iblancasa93" class="author-social" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a> <a href="http://github.com/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a> <a href="https://youtube.com/user/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a></div></div><article class="post"><div class="headline-wrap"><h1><a href="http://blog.iblancasa.com/article/hola-mundo/" rel="bookmark" title="Hola mundo">Hola mundo</a></h1></div><div class="article-wrap"><p>Tras mucho pensarlo, decidí pasar de Wordpress y empezar a utilizar Jekyll. ¿Por qué?</p><p>Durante algunos años, para distintos tipos de cosas, he utilizado Wordpress. Siempre he tenido, entre otras, la misma queja: el sitio web, pese a tener poco contenido y un número bastante bajo de visitas, siempre ha ido muy lento. Incluso si utilizaba las plantillas por defecto. Por si el problema había sido a lo largo de todo este tiempo la utilización de hostings o VPS de mala calidad, probé a utilizar la plataforma PaaS (<em>Platform as a service</em>) de <a href="http://www.redhat.com/es/global/spain">Red Hat</a>, <a href="https://www.openshift.com/">OpenShift</a>. A pesar de utilizar un modelo <em>premium</em>, el resultado fue el mismo.</p><p>La necesidad de instalar sistemas de seguridad para evitar ataques o estar pendiente de las actualizaciones (que pueden ser críticas para mantener tu sitio web en pie) han sido otras de las razones.</p><p>La obligación de cumplir la <a href="http://www.lssi.gob.es/">LSSI</a> y la <a href="https://www.agpd.es/portalwebAGPD/canaldocumentacion/informes_juridicos/reglamento_lopd/index-ides-idphp.php">LOPD</a> me llevaron a desactivar los comentarios del blog (que tampoco necesitaba), crear el típico documento declarando qué cookies utilizaba…</p><p>Todo esto me hizo abandonar Wordpress. Estudié cómo funcionaban otras plataformas como <a href="https://ghost.org/">Ghost</a>, <a href="https://www.blogger.com/home">Blogger</a> (que nunca me terminó de convencer) o <a href="http://octopress.org/">Octopress</a> (que funciona sobre Jekyll).</p><p>No quise utilizar un sistema que me obligase a estar en el hosting/cloud de la empresa que lo desarrolla (por lo que ya eliminaba unas cuantas posibilidades).</p><p>Por otro lado, pensé en los problemas que había encontrado respecto a velocidad de respuesta. ¿Qué hay más rápido que una web realizada solo en HTML, CSS y JavaScript? Por lo que desestimé cualquier sistema generado de forma dinámica: nada de preguntar a bases de datos. El sistema que más me llamó la atención (y en el que entendí un mejor soporte) fue Jekyll.</p><p>En cuanto a hosting, simplemente estoy utilizando <a href="https://pages.github.com/">GitHub Pages</a>, por lo que no me tengo que preocupar por la calidad (que es bastante buena) o de pagarlo. En vez de utilizar directamente la opción que nos da GitHub para construir nuestro blog Jekyll, hice un fork de una plantilla que me gustó y soy yo mismo quien construye los ficheros que forman la web, utilizando <a href="https://travis-ci.org/">Travis</a> (de esta forma, añado algunas cosas como la posibilidad de comprimir las imágenes y las páginas generadas en HTML, con lo que la velocidad de respuesta aumenta algo, aunque tampoco es algo notable).</p><p>El subirlo a GitHub ayuda, además, a que lo que escriba se vea reflejado en más de un sitio.</p><p>Empiezo con esto una nueva etapa</p><p><img src="https://jekyllrb.com/img/logo-2x.png" alt=""></p><hr><footer role="contentinfo"><div class="social-share"><h4>Compartir en...</h4><ul><li><a href="https://twitter.com/intent/tweet?text=http://blog.iblancasa.com/article/hola-mundo/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span>Twitter</span></a></li><li><a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.iblancasa.com/article/hola-mundo/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a></li><li><a href="https://plus.google.com/share?url=http://blog.iblancasa.com/article/hola-mundo/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span>Google+</span></a></li></ul></div><p class="byline"><strong>Hola mundo</strong> publicado en <time datetime="2015-10-06T00:00:00+00:00">October 06, 2015</time> and last modified on <time datetime="2015-10-06">October 06, 2015</time>.</p></footer></div></article></div><div class="footer-wrap"><footer><span>&copy; 2015 Israel Blancas. Sobre <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> con <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a> theme.</span></footer></div><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script>window.jQuery||document.write('<script src="http://blog.iblancasa.com/assets/js/vendor/jquery-1.9.1.min.js"><\/script>');</script><script src="http://blog.iblancasa.com/assets/js/scripts.min.js"></script><script src="/assets/js/plugins/jekyll-search.js"></script></body></html>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Hola mundo &#8211; iblancasa - Blog</title>
+<meta name="description" content="Inicio el blog y explico por qué razones he decidido abandonar Wordpress y unirme a Jekyll">
+<meta name="keywords" content="nuevo, post, hola mundo">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Hola mundo">
+<meta name="twitter:description" content="Inicio el blog y explico por qué razones he decidido abandonar Wordpress y unirme a Jekyll">
+<meta name="twitter:site" content="@iblancasa">
+<meta name="twitter:creator" content="@iblancasa">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://blog.iblancasa.com/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hola mundo">
+<meta property="og:description" content="Inicio el blog y explico por qué razones he decidido abandonar Wordpress y unirme a Jekyll">
+<meta property="og:url" content="http://blog.iblancasa.com/article/hola-mundo/">
+<meta property="og:site_name" content="iblancasa - Blog">
+
+<meta property="og:image" content="http://blog.iblancasa.com/images/default-thumb.png">
+
+
+
+
+
+
+<link rel="canonical" href="http://blog.iblancasa.com/article/hola-mundo/">
+<link href="http://blog.iblancasa.com/feed.xml" type="application/atom+xml" rel="alternate" title="iblancasa - Blog Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://blog.iblancasa.com/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://blog.iblancasa.com/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://blog.iblancasa.com/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://blog.iblancasa.com/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://blog.iblancasa.com/">iblancasa - Blog</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				        
+				        
+				    <li><a href="http://iblancasa.com" target="_blank">Autor</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="http://blog.iblancasa.com/posts/" >Todas las publicaciones</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+	<img src="http://blog.iblancasa.com/images/bio-photo.jpg" class="bio-photo" alt="Israel Blancas bio photo">
+
+
+  <h3 itemprop="name">Israel Blancas</h3>
+  <p></p>
+  
+  <a href="http://twitter.com/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+  
+  
+  <a href="http://linkedin.com/in/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+  
+  <a href="http://instagram.com/iblancasa93" class="author-social" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+  
+  <a href="http://github.com/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+  
+  
+  
+  
+  
+  
+  <a href="https://youtube.com/user/iblancasa" class="author-social" target="_blank"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a>
+  
+  
+  
+  
+</div>
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="http://blog.iblancasa.com/article/hola-mundo/" rel="bookmark" title="Hola mundo">Hola mundo</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>Tras mucho pensarlo, decidí pasar de Wordpress y empezar a utilizar Jekyll. ¿Por qué?</p>
+
+<p>Durante algunos años, para distintos tipos de cosas, he utilizado Wordpress. Siempre he tenido, entre otras, la misma queja: el sitio web, pese a tener poco contenido y un número bastante bajo de visitas, siempre ha ido muy lento. Incluso si utilizaba las plantillas por defecto. Por si el problema había sido a lo largo de todo este tiempo la utilización de hostings o VPS de mala calidad, probé a utilizar la plataforma PaaS (<em>Platform as a service</em>) de <a href="http://www.redhat.com/es/global/spain">Red Hat</a>, <a href="https://www.openshift.com/">OpenShift</a>. A pesar de utilizar un modelo <em>premium</em>, el resultado  fue el mismo.</p>
+
+<p>La necesidad de instalar sistemas de seguridad para evitar ataques o estar pendiente de las actualizaciones (que pueden ser críticas para mantener tu sitio web en pie) han sido otras de las razones.</p>
+
+<p>La obligación de cumplir la <a href="http://www.lssi.gob.es/">LSSI</a> y la <a href="https://www.agpd.es/portalwebAGPD/canaldocumentacion/informes_juridicos/reglamento_lopd/index-ides-idphp.php">LOPD</a> me llevaron a desactivar los comentarios del blog (que tampoco necesitaba), crear el típico documento declarando qué cookies utilizaba…</p>
+
+<p>Todo esto me hizo abandonar Wordpress. Estudié cómo funcionaban otras plataformas como <a href="https://ghost.org/">Ghost</a>, <a href="https://www.blogger.com/home">Blogger</a> (que nunca me terminó de convencer) o <a href="http://octopress.org/">Octopress</a> (que funciona sobre Jekyll).</p>
+
+<p>No quise utilizar un sistema que me obligase a estar en el hosting/cloud de la empresa que lo desarrolla (por lo que ya eliminaba unas cuantas posibilidades).</p>
+
+<p>Por otro lado, pensé en los problemas que había encontrado respecto a velocidad de respuesta. ¿Qué hay más rápido que una web realizada solo en HTML, CSS y JavaScript? Por lo que desestimé cualquier sistema generado de forma dinámica: nada de preguntar a bases de datos. El sistema que más me llamó la atención (y en el que entendí un mejor soporte) fue Jekyll.</p>
+
+<p>En cuanto a hosting, simplemente estoy utilizando <a href="https://pages.github.com/">GitHub Pages</a>, por lo que no me tengo que preocupar por la calidad (que es bastante buena) o de pagarlo. En vez de utilizar directamente la opción que nos da GitHub para construir nuestro blog Jekyll, hice un fork de una plantilla que me gustó y soy yo mismo quien construye los ficheros que forman la web, utilizando <a href="https://travis-ci.org/">Travis</a> (de esta forma, añado algunas cosas como la posibilidad de comprimir las imágenes y las páginas generadas en HTML, con lo que la velocidad de respuesta aumenta algo, aunque tampoco es algo notable).</p>
+
+<p>El subirlo a GitHub ayuda, además, a que lo que escriba se vea reflejado en más de un sitio.</p>
+
+<p>Empiezo con esto una nueva etapa</p>
+
+<p><img src="https://jekyllrb.com/img/logo-2x.png" alt="" /></p>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="social-share">
+  <h4>Compartir en...</h4>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=http://blog.iblancasa.com/article/hola-mundo/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.iblancasa.com/article/hola-mundo/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=http://blog.iblancasa.com/article/hola-mundo/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+  </ul>
+</div><!-- /.social-share -->
+
+        <p class="byline"><strong>Hola mundo</strong> publicado en <time datetime="2015-10-06T00:00:00+00:00">October 06, 2015</time> and last modified on <time datetime="2015-10-06">October 06, 2015</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  
+  <div class="related-articles">
+  <h4>Tambi&eacute;n podría gustarte <small class="pull-right">(<a href="http://blog.iblancasa.com/posts/">Ver todos los posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://blog.iblancasa.com/article/hackathon-todos-incluidos/" title="Comentando el hackathón "Todos incluidos" en Granada">Comentando el hackathón "Todos incluidos" en Granada</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  
+  <footer>
+    
+
+<span>&copy; 2015 Israel Blancas. Sobre <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> con <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://blog.iblancasa.com/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://blog.iblancasa.com/assets/js/scripts.min.js"></script>
+<script src="/assets/js/plugins/jekyll-search.js" type="text/javascript"></script>
+
+
+
+  
+
+
+
+</body>
+</html>
