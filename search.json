@@ -1,0 +1,35 @@
+[
+  
+    {
+      "title"    : "IEEExtreme v9",
+      "category" : "",
+      "tags"     : "hackathon and ieee",
+      "url"      : "/article/ieeextreme-v9/",
+      "date"     : "2015-10-27 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Hackathon Open Access Week (Semana de la Ciencia Abierta)",
+      "category" : "",
+      "tags"     : "hackathon",
+      "url"      : "/article/hackathon-open-access-week/",
+      "date"     : "2015-10-26 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Comentando el hackathón &quot;Todos incluidos&quot; en Granada",
+      "category" : "",
+      "tags"     : "hackathon, telefonica, granada, parque de las ciencias, thinking things, iot, internet de las cosas, and hardware",
+      "url"      : "/article/hackathon-todos-incluidos/",
+      "date"     : "2015-10-16 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Hola mundo",
+      "category" : "",
+      "tags"     : "nuevo, post, and hola mundo",
+      "url"      : "/article/hola-mundo/",
+      "date"     : "2015-10-06 00:00:00 +0000"
+    } 
+  
+]

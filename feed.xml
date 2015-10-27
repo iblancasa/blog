@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">iblancasa - Blog</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
+<link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
+<updated>2015-10-27T20:29:04+00:00</updated>
+<id>http://blog.iblancasa.com/</id>
+<author>
+  <name>Israel Blancas</name>
+  <uri>http://blog.iblancasa.com/</uri>
+  
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[IEEExtreme v9]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/ieeextreme-v9/" />
+  <id>http://blog.iblancasa.com/article/ieeextreme-v9</id>
+  <updated>2015-10-27T00:00:00-00:00</updated>
+  <published>2015-10-27T00:00:00+00:00</published>
+  
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/profile_images/588030735325536257/3MmCEoYU.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El pasado 24 de octubre (a partir de las 2 de la mañana) y hasta las 2 de la mañana del día siguiente (la primera vez que el reloj marcaba las 2, que coincidía con el cambio de hora) se celebró el IEEExtreme, una competición de carácter mundial que realizaba su novena edición.&lt;/p&gt;
+
+&lt;p&gt;Durante 24 horas, la organización va liberando problemas de diferentes dificultades basados en razonamientos lógicos y matemáticos, que hay que resolver mediante el desarrollo de un programa (pudiendo hacerse en diversos lenguajes). Tras subir el código a la plataforma (tantas veces como se quiera) se aplican una serie de test (que no se muestran a los participantes). Para pasar los test hay que proporcionar el resultado esperado por los mismos, no superar un tiempo de ejecución (la plataforma determina los límites de tiempo para cada problema) y no tener errores de proramación.&lt;/p&gt;
+
+&lt;p&gt;En función del número de test que pase tu solución, la velocidad a la que se ejecute, el número de gente que lo haya intentado resolver y el número de participantes que lo haya resuelto, se obtiene una puntuación u otra.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://oi65.tinypic.com/2emeipl.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En esta imagen podemos ver cómo uno de los problemas, al que intenté dar solución, pasó algunos de los test mientras que otros no por exceso de tiempo.&lt;/p&gt;
+
+&lt;p&gt;Mi equipo “CraftCoders” consiguió 506.97 puntos, obteniendo el puesto 377/1944 a nivel mundial y el 4/30 a nivel de España.&lt;/p&gt;
+
+&lt;p&gt;La rama estudiantil de la Universidad de Granada nos reunimos en la residencia universitaria Carlos V. Coincidía con el día de apertura de curso de la misma y no fueron pocos los curiosos que, pasados de copas, entraban a comprobar qué hacíamos a altas horas de la madrugada o por la mañana al grito de “PERO CHAVALES, ¿QUÉ HACÉIS ESTUDIANDO TAN TEMPRANO? ID DE FIESTA”.&lt;/p&gt;
+
+&lt;p&gt;Una noche para no olvidar, que estuvo cargada de risas, momentos de emoción y muy buenas vibraciones. ¡Espero repetir el año que viene!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/ieeextreme-v9/&quot;&gt;IEEExtreme v9&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Hackathon Open Access Week (Semana de la Ciencia Abierta)]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/hackathon-open-access-week/" />
+  <id>http://blog.iblancasa.com/article/hackathon-open-access-week</id>
+  <updated>2015-10-26T00:00:00-00:00</updated>
+  <published>2015-10-26T00:00:00+00:00</published>
+  
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/CR_xwJeXIAELzwz.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Con motivo de la Open Access Week (Semana de la Ciencia Abierta), la &lt;a href=&quot;http://osl.ugr.es/&quot;&gt;Oficina de Software Libre de la Universidad de Granada&lt;/a&gt; y el grupo &lt;a href=&quot;http://geneura.ugr.es/&quot;&gt;Geneura&lt;/a&gt; organizaron un hackathón. En el mismo se presentaron algunos proyectos muy interesantes:
+* &lt;a href=&quot;https://github.com/JJ/nodeo&quot;&gt;Nodeo&lt;/a&gt;: una biblioteca en NodeJS de algoritmos evolutivos
+* &lt;a href=&quot;https://github.com/vrivas/iconio&quot;&gt;Iconio&lt;/a&gt;: una biblioteca Javascript para analizar series temporales
+* &lt;a href=&quot;https://www.musesproject.eu/&quot;&gt;Muses Project&lt;/a&gt;: un sistema que evita riesgos causados por los usuarios&lt;/p&gt;
+
+&lt;p&gt;Yo, que me vi abrumado por el nivel de las propuestas que se presentaron, me decanté por aportar lo que pude en el &lt;a href=&quot;https://github.com/MusesProject&quot;&gt;proyecto Muses&lt;/a&gt;, añadiendo un par de aclaraciones a la documentación y solucionando un problema en los datos de ejemplo.&lt;/p&gt;
+
+&lt;p&gt;Espero poder sacar tiempo en un futuro cercano y hacer algunas aportaciones más importantes porque como dijo Paloma (quien presentó el proyecto): es un proyecto europeo… ¡y mola!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/CR_rUPAXIAA9b_Z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/hackathon-open-access-week/&quot;&gt;Hackathon Open Access Week (Semana de la Ciencia Abierta)&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Comentando el hackathón "Todos incluidos" en Granada]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/hackathon-todos-incluidos/" />
+  <id>http://blog.iblancasa.com/article/hackathon-todos-incluidos</id>
+  <updated>2015-10-16T00:00:00-00:00</updated>
+  <published>2015-10-16T00:00:00+00:00</published>
+  
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Durante los días 2, 3 y 4 de octubre, el Parque de las Ciencias de Granada se llenó de programadores y gente relacionada con las nuevas tecnologías. Telefónica organizaba un hackathón (en el que previamente había que ser seleccionado tras rellenar una solicitud a través de un formulario web) sobre Internet de las Cosas.&lt;/p&gt;
+
+&lt;p&gt;De forma paralela, se celebraban algunas actividades en otra sala: algunas charlas sobre drones, impresión 3D, realidad virtual…&lt;/p&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: block;&quot;&gt;
+&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/136559810@N04/albums/72157660036554232&quot; title=&quot;Hackathón Telefónica &amp;quot;Todos incluidos&amp;quot;&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/772/22306797055_fdf945ab83.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;Hackathón Telefónica &amp;quot;Todos incluidos&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;El dispositivo se encuentra formado por varios módulos, como puede verse en las imágenes anteriores. Los posibles módulos son:
+* Batería
+* Comunicación
+* Sensor de presencia (opcional y no lo tuvimos disponible)
+* Un sensor de humedad, luminosidad y temperatura (opcional)
+* Un “actuador”, con un led y un zumbador (opcional)&lt;/p&gt;
+
+&lt;p&gt;Según uno de los miembros organizadores del hackathón, la carga de la batería podía durar semanas o, incluso, meses pero, tras haber cargado completamente el módulo (a través de un cable USB) y dejarlo encendido (a propósito) antes de abandonar el recinto, la carga había sido agotada durante la noche (tal vez debido a que se había usado demasiado en anteriores ocasiones o que la batería no cumple lo que promete).&lt;/p&gt;
+
+&lt;p&gt;La comunicación se realiza por medio de una tarjeta SIM, distinta a la que se utiliza para los teléfonos móviles, pero con similar funcionalidad.&lt;/p&gt;
+
+&lt;p&gt;En cuanto a los sensores… la temperatura parece que no era todo lo correcta que debiera y la luminosidad y humedad estaban en unidades desconocidas.&lt;/p&gt;
+
+&lt;p&gt;El acceso a los datos se realizaba mediante una API REST. En nuestro caso, no se precisaba de token de seguridad y los Thinkin Thing estaban sirviendo los datos en un puerto distinto al habitual (para que nos fuese más sencillo desarrollar una aplicación). Si hacíamos una petición al servidor, como la siguiente:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl http://hackathon.ttcloud.net:10026/v1/contextEntities/&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;ID de tu dispositivo&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; -s -S --header &lt;span class=&quot;s1&quot;&gt;&amp;#39;Accept: application/json&amp;#39;&lt;/span&gt; --header &lt;span class=&quot;s1&quot;&gt;&amp;#39;fiware-service: todosincluidos&amp;#39;&lt;/span&gt; --header &lt;span class=&quot;s1&quot;&gt;&amp;#39;x-auth-token: &amp;#39;&lt;/span&gt; --header &lt;span class=&quot;s2&quot;&gt;&amp;quot;fiware-servicepath: /iot&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Obteníamos un JSON como este:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;quot;contextElement&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;thinkingthing&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;quot;isPattern&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;false&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;quot;id&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;[ID]&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;quot;attributes&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;cellid&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;string&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;1f3c&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;charger&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;charging&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;string&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot; &amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;dbm&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-69&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;desconnection&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;humidity&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;float&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;1043108.50&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;lac&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;70c&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;luminance&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;float&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;38.90&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;mcc&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;214&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;melody&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;string&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot; &amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;mnc&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;07&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;mode&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;sleepcondition&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;string&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Wake&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;sleeptime&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;string&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;3&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;state&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;integer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;temperature&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;float&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;28.73&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;voltage&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;type&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;float&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;quot;value&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;6.52&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;quot;statusCode&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;quot;code&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;200&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;quot;reasonPhrase&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;OK&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;De los actuadores poco puedo decir ya que, salvo alguna indicación que se nos dió sobre la marcha, no recibimos más documentación. Había que realizar una petición POST a nuestro dispositivo enviándole un fichero JSON con los valores que queríamos que tomase el actuador (en el caso del LED, teníamos que dar valores a una terna RGB -siendo los posibles valores 0 ó 1- y en el caso del zumbador, no había documentación a través de Internet -gracias a uno de los organizadores, tuvimos una ligera idea de cómo funcionaba por que nos envió, a través de Google Drive, un documento con parte de la especificación-).&lt;/p&gt;
+
+&lt;p&gt;Siento decir que no me gusta mucho esta plataforma hardware ya que creo que tiene un coste demasiado elevado para la escasa funcionalidad que tiene. Además, tener que utilizar la plataforma online de forma obligatoria lo considero una desventaja aunque claro, ahí está el negocio. También echo de menos más documentación.&lt;/p&gt;
+
+&lt;p&gt;En cuanto a la comida y la conectividad… eso ya es otro tema.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/hackathon-todos-incluidos/&quot;&gt;Comentando el hackathón &quot;Todos incluidos&quot; en Granada&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 16, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Hola mundo]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/hola-mundo/" />
+  <id>http://blog.iblancasa.com/article/hola-mundo</id>
+  <updated>2015-10-06T00:00:00-00:00</updated>
+  <published>2015-10-06T00:00:00+00:00</published>
+  
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Tras mucho pensarlo, decidí pasar de Wordpress y empezar a utilizar Jekyll. ¿Por qué?&lt;/p&gt;
+
+&lt;p&gt;Durante algunos años, para distintos tipos de cosas, he utilizado Wordpress. Siempre he tenido, entre otras, la misma queja: el sitio web, pese a tener poco contenido y un número bastante bajo de visitas, siempre ha ido muy lento. Incluso si utilizaba las plantillas por defecto. Por si el problema había sido a lo largo de todo este tiempo la utilización de hostings o VPS de mala calidad, probé a utilizar la plataforma PaaS (&lt;em&gt;Platform as a service&lt;/em&gt;) de &lt;a href=&quot;http://www.redhat.com/es/global/spain&quot;&gt;Red Hat&lt;/a&gt;, &lt;a href=&quot;https://www.openshift.com/&quot;&gt;OpenShift&lt;/a&gt;. A pesar de utilizar un modelo &lt;em&gt;premium&lt;/em&gt;, el resultado  fue el mismo.&lt;/p&gt;
+
+&lt;p&gt;La necesidad de instalar sistemas de seguridad para evitar ataques o estar pendiente de las actualizaciones (que pueden ser críticas para mantener tu sitio web en pie) han sido otras de las razones.&lt;/p&gt;
+
+&lt;p&gt;La obligación de cumplir la &lt;a href=&quot;http://www.lssi.gob.es/&quot;&gt;LSSI&lt;/a&gt; y la &lt;a href=&quot;https://www.agpd.es/portalwebAGPD/canaldocumentacion/informes_juridicos/reglamento_lopd/index-ides-idphp.php&quot;&gt;LOPD&lt;/a&gt; me llevaron a desactivar los comentarios del blog (que tampoco necesitaba), crear el típico documento declarando qué cookies utilizaba…&lt;/p&gt;
+
+&lt;p&gt;Todo esto me hizo abandonar Wordpress. Estudié cómo funcionaban otras plataformas como &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;, &lt;a href=&quot;https://www.blogger.com/home&quot;&gt;Blogger&lt;/a&gt; (que nunca me terminó de convencer) o &lt;a href=&quot;http://octopress.org/&quot;&gt;Octopress&lt;/a&gt; (que funciona sobre Jekyll).&lt;/p&gt;
+
+&lt;p&gt;No quise utilizar un sistema que me obligase a estar en el hosting/cloud de la empresa que lo desarrolla (por lo que ya eliminaba unas cuantas posibilidades).&lt;/p&gt;
+
+&lt;p&gt;Por otro lado, pensé en los problemas que había encontrado respecto a velocidad de respuesta. ¿Qué hay más rápido que una web realizada solo en HTML, CSS y JavaScript? Por lo que desestimé cualquier sistema generado de forma dinámica: nada de preguntar a bases de datos. El sistema que más me llamó la atención (y en el que entendí un mejor soporte) fue Jekyll.&lt;/p&gt;
+
+&lt;p&gt;En cuanto a hosting, simplemente estoy utilizando &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, por lo que no me tengo que preocupar por la calidad (que es bastante buena) o de pagarlo. En vez de utilizar directamente la opción que nos da GitHub para construir nuestro blog Jekyll, hice un fork de una plantilla que me gustó y soy yo mismo quien construye los ficheros que forman la web, utilizando &lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis&lt;/a&gt; (de esta forma, añado algunas cosas como la posibilidad de comprimir las imágenes y las páginas generadas en HTML, con lo que la velocidad de respuesta aumenta algo, aunque tampoco es algo notable).&lt;/p&gt;
+
+&lt;p&gt;El subirlo a GitHub ayuda, además, a que lo que escriba se vea reflejado en más de un sitio.&lt;/p&gt;
+
+&lt;p&gt;Empiezo con esto una nueva etapa&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/hola-mundo/&quot;&gt;Hola mundo&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
