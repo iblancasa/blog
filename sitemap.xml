@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://blog.iblancasa.com/article/ieeextreme-v9/</loc>
+    <loc>http://blog.iblancasa.com/article/eventos/hackathon-movilforum/</loc>
+    <lastmod>2015-11-10T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.iblancasa.com/article/eventos/ieeextreme-v9/</loc>
     <lastmod>2015-10-27T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://blog.iblancasa.com/article/hackathon-open-access-week/</loc>
+    <loc>http://blog.iblancasa.com/article/eventos/hackathon-open-access-week/</loc>
     <lastmod>2015-10-26T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://blog.iblancasa.com/article/hackathon-todos-incluidos/</loc>
+    <loc>http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos/</loc>
     <lastmod>2015-10-16T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -29,12 +33,15 @@
       <loc>http://blog.iblancasa.com/article/hola-mundo/</loc>
     </url>
     <url>
-      <loc>http://blog.iblancasa.com/article/hackathon-todos-incluidos/</loc>
+      <loc>http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos/</loc>
     </url>
     <url>
-      <loc>http://blog.iblancasa.com/article/hackathon-open-access-week/</loc>
+      <loc>http://blog.iblancasa.com/article/eventos/hackathon-open-access-week/</loc>
     </url>
     <url>
-      <loc>http://blog.iblancasa.com/article/ieeextreme-v9/</loc>
+      <loc>http://blog.iblancasa.com/article/eventos/ieeextreme-v9/</loc>
+    </url>
+    <url>
+      <loc>http://blog.iblancasa.com/article/eventos/hackathon-movilforum/</loc>
     </url>
 </urlset>

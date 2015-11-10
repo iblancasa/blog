@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
-<updated>2015-11-04T13:03:28+00:00</updated>
+<updated>2015-11-10T16:41:43+00:00</updated>
 <id>http://blog.iblancasa.com/</id>
 <author>
   <name>Israel Blancas</name>
@@ -14,9 +14,46 @@
 
 
 <entry>
+  <title type="html"><![CDATA[Hackathon Movilforum en Málaga]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/eventos/hackathon-movilforum/" />
+  <id>http://blog.iblancasa.com/article/eventos/hackathon-movilforum</id>
+  <published>2015-11-10T00:00:00+00:00</published>
+  <updated>2015-11-10T00:00:00+00:00</updated>
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;http://movilforum.com/wp-content/uploads/2015/07/retograndeppal.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;el-evento&quot;&gt;El evento&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://movilforum.com/&quot;&gt;Movilforum&lt;/a&gt;, el programa de patners de soluciones de Telefónica, ha venido organizando una serie de “hackathones” relacionados con la placa Intel Edison. En ellos, el objetivo era conseguir una idea para presentar a un certamen propuesto por &lt;a href=&quot;https://ficod.es/&quot;&gt;FICOD&lt;/a&gt; y yo participé en el último de ellos que tuvo lugar en Málga los días 29 y 30 de octubre.&lt;/p&gt;
+
+&lt;p&gt;En un primer lugar fuimos citados en un edificio que se encontraba en torno al centro de la UMA (Universidad de Málaga) y, el día de antes, se trasladó (desconozco el motivo) a la “Escuela de Ingenierías” y, para el hackathon, al “Green Ray” (ambos edificios en una zona donde parecía que el mundo dejaba de serlo). Después de varias largas charlas de patrocinadores, nos tuvimos que organizar por equipos durante el desayuno. Esto fue un poco caótico ya que los asistentes no se conocían y tampoco se sabía el perfil de cada uno de ellos (técnico, marketing…). Después de “apañarnos” (por llamarlo de alguna forma) y una rápida explicación sobre el funcionamiento de la placa Intel Edison, al fin, nos dejaron empezar a trabajar.&lt;/p&gt;
+
+&lt;p&gt;El kit que se nos proporcionó (uno por equipo) constaba de la placa Intel Edison, la placa de prototipado y el kit de sensores de “Grove Started”.&lt;/p&gt;
+
+&lt;p&gt;Al dia siguiente, tuvimos que presentar nuestras ideas. Se dió mucho bombo a que vendrían profesores de la UMA especializados en negocio, los cuales desaparecieron tras una hora. Los compañeros, debido a que las charlas se hacían insufribles, también fueron abandonado. ¿Lo mejor? Tras presentar tu idea, regalaban un kit completo de los que se nos había proporcionado (a cada integrante del equipo).&lt;/p&gt;
+
+&lt;p&gt;El evento en sí valió poco la pena (alguno de los organizadores -que no todos- no tenia muy buenos modos, faltó una dinámica para que los participantes pudieran agruparse, poco tiempo para trabajar y mucho para hablar los patrocinadores…), aunque aprendí algunas cosas. ¿Lo mejor? Conseguir una Intel Edison.&lt;/p&gt;
+
+&lt;h3 id=&quot;intel-edison&quot;&gt;Intel Edison&lt;/h3&gt;
+&lt;p&gt;Nunca había trabjado con esta placa aunque sentía una gran curiosidad. Es una placa de prototipado, que permite ser insertada en otras placas en función de qué es lo que queramos hacer: existen placas para entornos de producción con sensores incorporados, otras que permiten soldar sensores o la que nos dieron en el evento (que facilita la conexión de Arduino y/o otros dispositivos).&lt;/p&gt;
+
+&lt;p&gt;Es un x86 con 1GB de memoria RAM y una distribución Linux (llamada Yocto) por lo que permite programar en diversos lenguajes (NodeJS, Arduino, Python, C/C++). No he podido trabajar mucho con ella pero… espero poder hacer algo interesante con esta gran plataforma.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/CSe0gO3WUAABm7d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/hackathon-movilforum/&quot;&gt;Hackathon Movilforum en Málaga&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on November 10, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[IEEExtreme v9]]></title>
-  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/ieeextreme-v9/" />
-  <id>http://blog.iblancasa.com/article/ieeextreme-v9</id>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/eventos/ieeextreme-v9/" />
+  <id>http://blog.iblancasa.com/article/eventos/ieeextreme-v9</id>
   <updated>2015-10-27T00:00:00-00:00</updated>
   <published>2015-10-27T00:00:00+00:00</published>
   
@@ -44,15 +81,15 @@
 
 &lt;p&gt;Una noche para no olvidar, que estuvo cargada de risas, momentos de emoción y muy buenas vibraciones. ¡Espero repetir el año que viene!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/ieeextreme-v9/&quot;&gt;IEEExtreme v9&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/ieeextreme-v9/&quot;&gt;IEEExtreme v9&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Hackathon Open Access Week (Semana de la Ciencia Abierta)]]></title>
-  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/hackathon-open-access-week/" />
-  <id>http://blog.iblancasa.com/article/hackathon-open-access-week</id>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/eventos/hackathon-open-access-week/" />
+  <id>http://blog.iblancasa.com/article/eventos/hackathon-open-access-week</id>
   <updated>2015-10-26T00:00:00-00:00</updated>
   <published>2015-10-26T00:00:00+00:00</published>
   
@@ -75,15 +112,15 @@
 
 &lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/CR_rUPAXIAA9b_Z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/hackathon-open-access-week/&quot;&gt;Hackathon Open Access Week (Semana de la Ciencia Abierta)&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 26, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/hackathon-open-access-week/&quot;&gt;Hackathon Open Access Week (Semana de la Ciencia Abierta)&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 26, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Comentando el hackathón "Todos incluidos" en Granada]]></title>
-  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/hackathon-todos-incluidos/" />
-  <id>http://blog.iblancasa.com/article/hackathon-todos-incluidos</id>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos/" />
+  <id>http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos</id>
   <updated>2015-10-16T00:00:00-00:00</updated>
   <published>2015-10-16T00:00:00+00:00</published>
   
@@ -230,7 +267,7 @@
 
 &lt;p&gt;En cuanto a la comida y la conectividad… eso ya es otro tema.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/hackathon-todos-incluidos/&quot;&gt;Comentando el hackathón &quot;Todos incluidos&quot; en Granada&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 16, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos/&quot;&gt;Comentando el hackathón &quot;Todos incluidos&quot; en Granada&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 16, 2015.&lt;/p&gt;
   </content>
 </entry>
 
