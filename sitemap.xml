@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://blog.iblancasa.com/article/eventos/por-que-me-encantan-los-devfest/</loc>
+    <lastmod>2015-11-18T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://blog.iblancasa.com/article/eventos/hackathon-movilforum/</loc>
     <lastmod>2015-11-10T00:00:00+00:00</lastmod>
   </url>
@@ -43,5 +47,8 @@
     </url>
     <url>
       <loc>http://blog.iblancasa.com/article/eventos/hackathon-movilforum/</loc>
+    </url>
+    <url>
+      <loc>http://blog.iblancasa.com/article/eventos/por-que-me-encantan-los-devfest/</loc>
     </url>
 </urlset>

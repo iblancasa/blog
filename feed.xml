@@ -4,13 +4,40 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
-<updated>2015-11-14T17:56:50+00:00</updated>
+<updated>2015-11-18T01:08:20+00:00</updated>
 <id>http://blog.iblancasa.com/</id>
 <author>
   <name>Israel Blancas</name>
   <uri>http://blog.iblancasa.com/</uri>
   
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[¿Por qué me encantan los DevFest?]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/eventos/por-que-me-encantan-los-devfest/" />
+  <id>http://blog.iblancasa.com/article/eventos/por-que-me-encantan-los-devfest</id>
+  <published>2015-11-18T00:00:00+00:00</published>
+  <updated>2015-11-18T00:00:00+00:00</updated>
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;http://skotgat.com/wp-content/uploads/2013/09/Devfest-2013.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Los DevFest son una serie de eventos organizados por colaboradores de Google (Google Developers Groups) que consisten en realizar una serie de charlas, hackathones y/o talleres sobre distintas tecnologías, teniendo gran importancia las propias de Google (como es lógico). Si quieres conocer más de estos eventos, &lt;a href=&quot;https://developers.google.com/events/devfest/&quot;&gt;aquí tienes la web oficial en Google&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;¿Y por qué me encantan? Vale, no he ido a muchos… ¡pero lo he pasado genial! Este año pude ir al DevFest de Jaén (era la primera vez que el GDG de allí organizaba algo) y al de Granada (donde tienen bastante experiencia).&lt;/p&gt;
+
+&lt;p&gt;¿Y qué había? Pues muchas charlas (es difícil poder elegir una como la más interesante), sobre todo de Android. Repasé algunos conceptos (que no tenía muy frescos, como el de &lt;a href=&quot;https://es.wikipedia.org/wiki/SOLID_(object-oriented_design)&quot;&gt;S.O.L.I.D.&lt;/a&gt;), aprendí cosas nuevas (algunos consejos para desarrollar en Android -aunque fuese aplicable a muchos otros entornos- de una forma más profesional, directrices a seguir para crear una API correcta y mantenible, algunos tipos de arquitecturas, bibliotecas impresionantes -como &lt;a href=&quot;http://reactivex.io/&quot;&gt;ReactiveX&lt;/a&gt;, que se vió en su versión Java-), escuché ideas de otros desarrolladores (importante) y, dicho sea de paso, conseguí algunos regalitos.&lt;/p&gt;
+
+&lt;p&gt;Espero que se hagan muchos más eventos como estos ya que facilitan la difusión del conocimiento, así como que los desarrolladores se conozcan (tanto entre ellos como a sí mismos) y puedan mejorar sus habilidades.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/por-que-me-encantan-los-devfest/&quot;&gt;¿Por qué me encantan los DevFest?&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on November 18, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>

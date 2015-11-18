@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "¿Por qué me encantan los DevFest?",
+      "category" : "eventos",
+      "tags"     : "google, gdg, devfest, android, etsiit, jaen, and granada",
+      "url"      : "/article/eventos/por-que-me-encantan-los-devfest/",
+      "date"     : "2015-11-18 00:00:00 +0000"
+    } ,
+  
+    {
       "title"    : "Hackathon Movilforum en Málaga",
       "category" : "eventos",
       "tags"     : "hackathon, telefonica, movilforum, reto edison, intel edison, and hardware",
