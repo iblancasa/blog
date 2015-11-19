@@ -4,13 +4,67 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
-<updated>2015-11-18T23:26:50+00:00</updated>
+<updated>2015-11-19T00:45:12+00:00</updated>
 <id>http://blog.iblancasa.com/</id>
 <author>
   <name>Israel Blancas</name>
   <uri>http://blog.iblancasa.com/</uri>
   
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Cómo utilizar ExpressJS con HTTPS]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/tutoriales/como-usar-expressjs-con-https/" />
+  <id>http://blog.iblancasa.com/article/tutoriales/como-usar-expressjs-con-https</id>
+  <published>2015-11-19T00:00:00+00:00</published>
+  <updated>2015-11-19T00:00:00+00:00</updated>
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;http://fotos.subefotos.com/6529a9aca846a939dac313a0b1a2dbc4o.jpg&quot; alt=&quot;HHTPS Node ExpressJS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En esta guía voy a explicar, brévemente, como hacer que nuestro servidor realizado con &lt;a href=&quot;https://nodejs.org&quot;&gt;NodeJS&lt;/a&gt; (mediante el paquete &lt;a href=&quot;http://expressjs.com/&quot;&gt;ExpressJS&lt;/a&gt;). Si no sabes Javascript, no conoces nada de NodeJS y/o no conoces ExpressJS, comienza por ahí y vuelve aquí más tarde (es fácil, no tardarás mucho tiempo en volver).&lt;/p&gt;
+
+&lt;h2 id=&quot;generando-los-certificados&quot;&gt;Generando los certificados&lt;/h2&gt;
+
+&lt;p&gt;Primero será necesario generar los certificados del servidor. Cuando un usuario acceda a nuestro sitio web, obtendrá un aviso indicando que la conexión no es segura, debido a que el certificado no estará firmado por una entidad de certificación. Puedes adquirir certificados a través de Internet.&lt;/p&gt;
+
+&lt;p&gt;Podemos generar nuestros propios certificados. La conexión seguriá estando cifrada, aunque los navegadores no podrán certificar que el servidor sea el correcto (es decir, que los usuarios no están sufriendo un &lt;a href=&quot;https://es.wikipedia.org/wiki/Ataque_Man-in-the-middle&quot;&gt;“man-in-the-middle”&lt;/a&gt;, por ejemplo).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;openssl genrsa -out chat-key.pem 1024
+openssl req -new -key chat-key.pem -out certrequest.csr
+openssl x509 -req -in certrequest.csr -signkey chat-key.pem -out chat-cert.pem&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;editando-el-cdigo&quot;&gt;Editando el código&lt;/h2&gt;
+
+&lt;p&gt;Simplemente, colocaremos los ficheros generados anteriormente dentro de nuestra aplicación y los referenciaremos desde el fichero donde se lance el servidor. La ruta será relativa al “package.json”. Las claves las introduciremos en un diccionario y las pasaremos como parámetro a la hora de crear el servidor.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;fs&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hskey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;readFileSync&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;chat-key.pem&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hscert&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;readFileSync&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;chat-cert.pem&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hskey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;cert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hscert&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;express&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;https&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;https&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createServer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Como podemos apreciar, respecto al “código clásico” de ejemplo, el resto del código cambia poco.&lt;/p&gt;
+
+&lt;p&gt;Estos certificados deben generarse con la máquina que servirá las peticiones, es decir, con el servidor. No funcionará si generamos los certificados en nuestro ordenador personal y lo subimos a un VPS, por ejemplo.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/tutoriales/como-usar-expressjs-con-https/&quot;&gt;Cómo utilizar ExpressJS con HTTPS&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on November 19, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
