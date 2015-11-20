@@ -4,13 +4,125 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
-<updated>2015-11-19T00:45:12+00:00</updated>
+<updated>2015-11-20T19:01:40+00:00</updated>
 <id>http://blog.iblancasa.com/</id>
 <author>
   <name>Israel Blancas</name>
   <uri>http://blog.iblancasa.com/</uri>
   
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Docker]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/tutoriales/docker/" />
+  <id>http://blog.iblancasa.com/article/tutoriales/docker</id>
+  <published>2015-11-20T00:00:00+00:00</published>
+  <updated>2015-11-20T00:00:00+00:00</updated>
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;http://fotos.subefotos.com/4e7301538895cdc19b0eb5f2a3b60730o.png&quot; alt=&quot;Docker&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;qu-es-docker&quot;&gt;¿Qué es Docker?&lt;/h1&gt;
+
+&lt;p&gt;Docker es una herramienta que permite crear contenedores. Estos contenedores, son sistemas de virtualización que nos permiten tener aplicaciones empaquetadas, de forma que sean autosuficientes (al disponer de todas las bibliotecas y dependencias que estas necesiten).&lt;/p&gt;
+
+&lt;p&gt;En nuestro caso, se ha procedido a crear un contenedor Docker al que &lt;a href=&quot;https://registry.hub.docker.com/u/iblancasa/backendsi2-iv/&quot;&gt;se puede acceder a través de este enlace.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;por-qu-utilizar-docker&quot;&gt;¿Por qué utilizar Docker?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Es fácil de instalar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/&quot;&gt;Compatible con muchos sistemas operativos y sistemas cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Es más seguro que otros métodos (para la máquina anfitriona) ya que los usuarios que acceden a la aplicación solo pueden acceder al entorno creado en el contenedor&lt;/li&gt;
+  &lt;li&gt;Permite integración continua&lt;/li&gt;
+  &lt;li&gt;Podemos basarnos en otro contenedor ya creado para ahorranos trabajo&lt;/li&gt;
+  &lt;li&gt;Gracias a que los contenedores quedan publicados en su web, si alguien quiere hacer una colaboración para mejorar nuestro sistema de virtualización, puede hacerlo&lt;/li&gt;
+  &lt;li&gt;Estos “tapers” pueden usarse tanto para pruebas como para producción (desde la versión 1 de Docker, ya que las anteriores no eran lo suficientemente maduras)&lt;/li&gt;
+  &lt;li&gt;Es ligero&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cmo-generar-un-contenedor&quot;&gt;¿Cómo generar un contenedor?&lt;/h2&gt;
+
+&lt;h3 id=&quot;dockerfile&quot;&gt;Dockerfile&lt;/h3&gt;
+&lt;p&gt;Para generar este contenedor, se crea un fichero llamado “Dockerfile” y que es el que toma Docker para generar un contenedor. En él, se indican distintas órdenes que permiten al sistema saber qué queremos que se instale (imagen base, ficheros que queremos copiar del repositorio…). &lt;a href=&quot;https://docs.docker.com/reference/builder/&quot;&gt;Aquí se puede obtener una lista de todas las órdenes disponibles y su sintáxis.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Un ejemplo de Dockerfile:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;FROM ubuntu
+MAINTAINER iblancasa &amp;lt;iblancasa &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;a&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; gmail.com&amp;gt; Version: 1.0
+
+
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+RUN &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; sudo tee /etc/apt/sources.list.d/mongodb.list
+RUN apt-get update
+RUN apt-get install -y mongodb-org
+RUN service mongod start
+RUN apt-get install -y nodejs
+RUN apt-get install npm git git-core -y
+RUN mkdir /home/app
+ADD app /home/app
+ADD &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; /home/test
+COPY package.json /home/
+EXPOSE 3000
+RUN &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; npm install&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; npm install -g mocha&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;npm install mocha chai supertest
+CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;nohup&amp;quot;&lt;/span&gt;,&lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/bin/nodejs&amp;quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&amp;quot;app/index.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;generando-el-contenedor-desde-la-web&quot;&gt;Generando el contenedor desde la web&lt;/h3&gt;
+&lt;p&gt;Para su creación, crea una cuenta en &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker.com&lt;/a&gt;. Una vez rellenado el formulario y realizadas las pertinentes verificaciones, se accede al panel de administración y se pulsa sobre “Add repository” y se selecciona “Automated Build”).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fotos.subefotos.com/4c89ddc7850be9aa6715e9059b7bf510o.jpg&quot; alt=&quot;Add repository&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora se nos dará opción a elegir entre seleccionar un repositorio que tengamos creado en “GitHub” o “Bitbucket” (será necesario autorizar desde ese servicio que Docker acceda a nuestra lista de repositorios) y después se nos pedirá seleccionar el repositorio con el que queremos vincular).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fotos.subefotos.com/2a75dd7e541191bd415d8965e4f9ceabo.jpg&quot; alt=&quot;Seleccionar repositorio&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tendremos que esperar un rato a que se Docker se conecte con nuestro repositorio y haga un primer “build”.
+&lt;strong&gt;Es importante tener un dockerfile válido. En caso contrario, nuestro contenedor no se creará&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cuando tengamos nuestro contenedor creado, podremos ver, en la página inicial de nuestro contenedor en Docker, el contenido del “Readme” de nuestro repositorio. Cuando modifiquemos el repositorio, se hará una nueva construcción de nuestro Docker. En la pestaña “Build Details” accedemos al historial de nuestro Docker, de forma que podemos ver si una construcción ha salido bien o no (y ver qué ha fallado).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fotos.subefotos.com/d90cf3bcf60ddd49e48bd249c1efce40o.jpg&quot; alt=&quot;Página inicial del Docker&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cmo-ejecutar-el-contenedor&quot;&gt;¿Cómo ejecutar el contenedor?&lt;/h2&gt;
+&lt;p&gt;Para poder usar Docker, tendremos que instalarlo en nuestro ordenador, para ello:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;apt-get update
+apt-get install docker.io&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Cuando queramos “arrancar” el servicio, ejecutaremos (como superusuario):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker -d&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Puede que el servicio no arranque y nos avise de un problema con “/var/run/docker.pid”, para ello, borramos el fichero ejecutando “rm /var/run/docker.pid” como superusuario y volvemos a ejecutar la orden anterior.&lt;/p&gt;
+
+&lt;p&gt;En otro terminal, ejecutaremos:&lt;/p&gt;
+
+&lt;p&gt;“docker pull iblancasa/backendsi2-iv”&lt;/p&gt;
+
+&lt;p&gt;Que descargará nuestro Docker. Una vez finalizada la descarga, podremos ejecutar la aplicación ejecutando:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo docker run -i -t iblancasa/backendsi2-iv /bin/bash -c &lt;span class=&quot;s2&quot;&gt;&amp;quot;ifconfig;nodejs /home&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Se ejecuta el comando &lt;code&gt;ìfconfig&lt;/code&gt; para comprobar la dirección IP y poder acceder, por ejemplo, desde nuestro navegador.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fotos.subefotos.com/8d8c0239e7af219126fe71232ef0db1eo.jpg&quot; alt=&quot;Ejecutando Docker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fotos.subefotos.com/35e57fb13cd35e3020034130454d68f1o.jpg&quot; alt=&quot;Aplicación ejecutándose&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si solo queremos acceder al terminal (para, por ejemplo, ejecutar los test unitarios):&lt;/p&gt;
+
+&lt;p&gt;“sudo docker run -i -t iblancasa/backendsi2-iv /bin/bash”&lt;/p&gt;
+
+&lt;p&gt;Para facilitar la instalación/ejecución, el repositorio cuenta con un &lt;a href=&quot;https://github.com/iblancasa/BackendSI2-IV/blob/master/installDocker.sh&quot;&gt;script de Bash&lt;/a&gt; que hay que ejecutar como superusuario y que arrancará el docker con la aplicación.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/tutoriales/docker/&quot;&gt;Docker&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on November 20, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
