@@ -4,13 +4,46 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
-<updated>2015-11-20T19:01:40+00:00</updated>
+<updated>2015-12-05T18:42:48+00:00</updated>
 <id>http://blog.iblancasa.com/</id>
 <author>
   <name>Israel Blancas</name>
   <uri>http://blog.iblancasa.com/</uri>
   
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Hacking Miniblip]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/eventos/hacking-miniblip/" />
+  <id>http://blog.iblancasa.com/article/eventos/hacking-miniblip</id>
+  <published>2015-12-04T00:00:00+00:00</published>
+  <updated>2015-12-04T00:00:00+00:00</updated>
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;http://hack-miniblip.github.io/images/pic02.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Los días 30 de noviembre y 1 de diciembre, &lt;a href=&quot;http://www.circolab.org/&quot;&gt;Circolab&lt;/a&gt; (una iniciativa de la empresa &lt;a href=&quot;http://www.bq.com/es/&quot;&gt;BQ&lt;/a&gt;) estuvo en Granada. La &lt;a href=&quot;http://osl.ugr.es&quot;&gt;Oficina de Software Libre de la Universidad de Granada&lt;/a&gt; organizó con ellos un hackathón para trabajar en la placa Miniblip.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hack-miniblip.github.io/images/pic03.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La placa ha sido diseñada por la gente de Circolab y esta era una de las primeras veces que se trabajaba en ella.&lt;/p&gt;
+
+&lt;p&gt;Esta placa cuenta con una matriz de leds, sensores capacitivos, un potenciómetro, un sensor de luminosidad, lugar para colocar un sensor de vibración, un botón…&lt;/p&gt;
+
+&lt;p&gt;Fuimos descubriendo muchas cosas de la placa pero, probablemente, lo más interesante fue ir creando diversos ejemplos y la página &lt;a href=&quot;http://hack-miniblip.github.io/&quot;&gt;de la organización que se creó en  GitHub&lt;/a&gt;, donde se explican cosas de la placa, cómo programarla y cómo compartir tu código.&lt;/p&gt;
+
+&lt;p&gt;Conocí a gente muy interesante como el famoso &lt;a href=&quot;https://twitter.com/Obijuan_cube&quot;&gt;Juan González&lt;/a&gt;, conocido como Obijuan.&lt;/p&gt;
+
+&lt;p&gt;Dos días (y los que han venido después), muy productivos.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/hacking-miniblip/&quot;&gt;Hacking Miniblip&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on December 04, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
@@ -71,6 +104,8 @@ EXPOSE 3000
 RUN &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; npm install&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; npm install -g mocha&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;npm install mocha chai supertest
 CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;nohup&amp;quot;&lt;/span&gt;,&lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/bin/nodejs&amp;quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&amp;quot;app/index.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;p&gt;Puedes ejecutarlo en tu máquina con “docker build -t [NAME] .” donde [NAME] es el nombre que desees ponerle.&lt;/p&gt;
+
 &lt;h3 id=&quot;generando-el-contenedor-desde-la-web&quot;&gt;Generando el contenedor desde la web&lt;/h3&gt;
 &lt;p&gt;Para su creación, crea una cuenta en &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker.com&lt;/a&gt;. Una vez rellenado el formulario y realizadas las pertinentes verificaciones, se accede al panel de administración y se pulsa sobre “Add repository” y se selecciona “Automated Build”).&lt;/p&gt;
 
@@ -118,7 +153,6 @@ apt-get install docker.io&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;“sudo docker run -i -t iblancasa/backendsi2-iv /bin/bash”&lt;/p&gt;
 
 &lt;p&gt;Para facilitar la instalación/ejecución, el repositorio cuenta con un &lt;a href=&quot;https://github.com/iblancasa/BackendSI2-IV/blob/master/installDocker.sh&quot;&gt;script de Bash&lt;/a&gt; que hay que ejecutar como superusuario y que arrancará el docker con la aplicación.&lt;/p&gt;
-
 
     &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/tutoriales/docker/&quot;&gt;Docker&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on November 20, 2015.&lt;/p&gt;
   </content>

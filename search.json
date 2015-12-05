@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Hacking Miniblip",
+      "category" : "eventos",
+      "tags"     : "hackathon, miniblip, bq, circolab, board, and placa",
+      "url"      : "/article/eventos/hacking-miniblip/",
+      "date"     : "2015-12-04 00:00:00 +0000"
+    } ,
+  
+    {
       "title"    : "Docker",
       "category" : "tutoriales",
       "tags"     : "docker, contenedores, full stack, and virtualizacion",

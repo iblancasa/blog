@@ -176,6 +176,8 @@ EXPOSE 3000
 RUN <span class="nb">cd</span> /home<span class="p">;</span> npm install<span class="p">;</span> npm install -g mocha<span class="p">;</span>npm install mocha chai supertest
 CMD <span class="o">[</span><span class="s2">&quot;nohup&quot;</span>,<span class="s2">&quot;/usr/bin/nodejs&quot;</span>, <span class="s2">&quot;app/index.js&quot;</span><span class="o">]</span></code></pre></figure>
 
+<p>Puedes ejecutarlo en tu máquina con “docker build -t [NAME] .” donde [NAME] es el nombre que desees ponerle.</p>
+
 <h3 id="generando-el-contenedor-desde-la-web">Generando el contenedor desde la web</h3>
 <p>Para su creación, crea una cuenta en <a href="https://www.docker.com/">Docker.com</a>. Una vez rellenado el formulario y realizadas las pertinentes verificaciones, se accede al panel de administración y se pulsa sobre “Add repository” y se selecciona “Automated Build”).</p>
 
@@ -224,7 +226,6 @@ apt-get install docker.io</code></pre></figure>
 
 <p>Para facilitar la instalación/ejecución, el repositorio cuenta con un <a href="https://github.com/iblancasa/BackendSI2-IV/blob/master/installDocker.sh">script de Bash</a> que hay que ejecutar como superusuario y que arrancará el docker con la aplicación.</p>
 
-
       <hr />
       <footer role="contentinfo">
         <div class="social-share">
@@ -255,11 +256,11 @@ apt-get install docker.io</code></pre></figure>
   <h4>Tambi&eacute;n podría gustarte <small class="pull-right">(<a href="http://blog.iblancasa.com/posts/">Ver todos los posts</a>)</small></h4>
     <ul>
     
+      <li><a href="http://blog.iblancasa.com/article/eventos/hacking-miniblip/" title="Hacking Miniblip">Hacking Miniblip</a></li>
+    
       <li><a href="http://blog.iblancasa.com/article/tutoriales/como-usar-expressjs-con-https/" title="Cómo utilizar ExpressJS con HTTPS">Cómo utilizar ExpressJS con HTTPS</a></li>
     
       <li><a href="http://blog.iblancasa.com/article/eventos/por-que-me-encantan-los-devfest/" title="¿Por qué me encantan los DevFest?">¿Por qué me encantan los DevFest?</a></li>
-    
-      <li><a href="http://blog.iblancasa.com/article/eventos/hackathon-movilforum/" title="Hackathon Movilforum en Málaga">Hackathon Movilforum en Málaga</a></li>
     
     </ul>
     <hr />
