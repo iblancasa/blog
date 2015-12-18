@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
-<updated>2015-12-18T09:06:37+00:00</updated>
+<updated>2015-12-18T09:26:39+00:00</updated>
 <id>http://blog.iblancasa.com/</id>
 <author>
   <name>Israel Blancas</name>
@@ -345,7 +345,7 @@ openssl x509 -req -in certrequest.csr -signkey chat-key.pem -out chat-cert.pem&l
 
 
 <entry>
-  <title type="html"><![CDATA[Comentando el hackathón "Todos incluidos" en Granada]]></title>
+  <title type="html"><![CDATA[Comentando el hackathón -Todos incluidos- en Granada]]></title>
   <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos/" />
   <id>http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos</id>
   <updated>2015-10-16T00:00:00-00:00</updated>
@@ -494,7 +494,7 @@ openssl x509 -req -in certrequest.csr -signkey chat-key.pem -out chat-cert.pem&l
 
 &lt;p&gt;En cuanto a la comida y la conectividad… eso ya es otro tema.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos/&quot;&gt;Comentando el hackathón &quot;Todos incluidos&quot; en Granada&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 16, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/eventos/hackathon-todos-incluidos/&quot;&gt;Comentando el hackathón -Todos incluidos- en Granada&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on October 16, 2015.&lt;/p&gt;
   </content>
 </entry>
 
