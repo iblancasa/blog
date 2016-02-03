@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Comentando Sinfonier y un arreglillo",
+      "category" : "tutoriales",
+      "tags"     : "sinfonier, eleven path, and software",
+      "url"      : "/article/tutoriales/sinfonier-como-ejecutarlo/",
+      "date"     : "2016-02-03 00:00:00 +0000"
+    } ,
+  
+    {
       "title"    : "Hacking Miniblip",
       "category" : "eventos",
       "tags"     : "hackathon, miniblip, bq, circolab, board, and placa",

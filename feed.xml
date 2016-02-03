@@ -4,13 +4,93 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.iblancasa.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.iblancasa.com" />
-<updated>2015-12-18T09:26:39+00:00</updated>
+<updated>2016-02-03T22:56:23+00:00</updated>
 <id>http://blog.iblancasa.com/</id>
 <author>
   <name>Israel Blancas</name>
   <uri>http://blog.iblancasa.com/</uri>
   
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Comentando Sinfonier y un arreglillo]]></title>
+  <link rel="alternate" type="text/html" href="http://blog.iblancasa.com/article/tutoriales/sinfonier-como-ejecutarlo/" />
+  <id>http://blog.iblancasa.com/article/tutoriales/sinfonier-como-ejecutarlo</id>
+  <published>2016-02-03T00:00:00+00:00</published>
+  <updated>2016-02-03T00:00:00+00:00</updated>
+  <author>
+    <name>Israel Blancas</name>
+    <uri>http://blog.iblancasa.com</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Hoy vengo a hablaros de &lt;a href=&quot;http://sinfonier-project.net/&quot;&gt;Sinfonier&lt;/a&gt;. Tengo que aclarar, antes de empezar, que cuando escribo este post no lo he utilizado ni una vez. Solo lo he trasteado, aunque sin mucha idea pero, como veréis más adelante, mi intención no es hacer un tutorial sobre cómo se usa (aunque no descarto hacer una breve guía porque la documentación que me he encontrado es bastante escasa).&lt;/p&gt;
+
+&lt;p&gt;En el siguiente vídeo podréis ver qué es Sinfonier y para qué se utiliza.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/109057651&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/109057651&quot;&gt;Sinfonier: Storm Builder for Security Intelligence&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/sinfonierproject&quot;&gt;Sinfonier Project&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Como podemos ver, es un software que hace de capa de abstracción sobre &lt;a href=&quot;http://storm.apache.org/&quot;&gt;Apache Storm&lt;/a&gt; (un sistema para realizar computación de forma distribuida).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sinfonier-project&quot;&gt;Aquí podéis acceder a su organización en GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2015/12/sinfonier-quick-start.html&quot;&gt;Este artículo es el más interesante (al menos para mí de su blog. Es un “getting started”.)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pero-cmo-funciona&quot;&gt;Pero… ¿cómo funciona?&lt;/h2&gt;
+&lt;p&gt;Consiste en conectar, de forma gráfica, una serie de módulos para realizar procesamiento de datos.&lt;/p&gt;
+
+&lt;p&gt;Tenemos tres tipos de “módulos”:
+* Spout: estos módulos leen de una fuente de datos. Un ejemplo de ellos podría ser la API Streaming de Twitter.
+* Bolt: realiza procesamiento sobre un flujo de datos
+* Drain: almacena los datos o los muestra en alguna interfaz como un “dashboard”&lt;/p&gt;
+
+&lt;p&gt;Estos módulos se conectan entre sí en lo que se llama una topología. Los “spouts” se conectan a los “bolts” y estos a su vez a los “drains” (donde cada conexión implica un flujo de datos).&lt;/p&gt;
+
+&lt;p&gt;## Vale pero… ¿y lo del arreglillo?
+Para crear un bolt (o cuarquier otro tipo de módulo) solo tenéis que seguir las instrucciones que hay en el artículo &lt;a href=&quot;http://blog.sinfonier-project.net/2015/10/creacion-de-un-bolt-he-sido-hackeado.html&quot;&gt;“Creación de un bolt: ¿he sido hackeado?”&lt;/a&gt;. Como podéis comprobar, la depuración del código puede ser algo pesada: copiar el código a un gist, enviarlo a Sinfonier, procesarlo y comprobar los errores.&lt;/p&gt;
+
+&lt;p&gt;Para agilizar el proceso, los desarrolladores han creado una máquina virtual para VirtualBox &lt;a href=&quot;http://blog.sinfonier-project.net/2016/02/development-vm-support-python-exceptions.html&quot;&gt;(en este artículo puedes ver cómo ejecutarla)&lt;/a&gt; donde han instalado Eclipse y han creado los ficheros del proyecto necesarios para desarrollar nuestro propio módulo.&lt;/p&gt;
+
+&lt;p&gt;Estos ficheros están disponibles en &lt;a href=&quot;https://github.com/sinfonier-project/sinfonier-dev-tool&quot;&gt;un repositorio de GitHub&lt;/a&gt;. Si echamos un vistazo (aunque la documentación del código es nula y cuesta comprenderlo) lo que se está haciendo es ejecutar una batería de tests (de esto ya nos avisan en el artículo que enlacé en el párrafo anterior) es decir, los test no se ejecutan sobre “Apache Storm” y mucho menos sobre “Sinfonier”. Teniendo en cuenta que ejecutar Eclipse ya puede ser un auténtico desafío a la velocidad de nuestro PC, decidí intentar ejecutar estos test en mi máquina (sin utilizar ningún tipo de virtualización).&lt;/p&gt;
+
+&lt;h3 id=&quot;cmo-ejecutar-los-test-en-mi-mquina&quot;&gt;¿Cómo ejecutar los test en mi máquina?&lt;/h3&gt;
+&lt;p&gt;Tengo que avisar que yo lo he hecho en un sistema operativo Linux, así que no sé cómo funciona en Windows o Mac.&lt;/p&gt;
+
+&lt;h4 id=&quot;qu-necesito-instalar&quot;&gt;¿Qué necesito instalar?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Python (versión 2.7)&lt;/li&gt;
+  &lt;li&gt;Módulo Python “APScheduler”&lt;/li&gt;
+  &lt;li&gt;Java JDK&lt;/li&gt;
+  &lt;li&gt;Maven&lt;/li&gt;
+  &lt;li&gt;Haz un clone de &lt;a href=&quot;https://github.com/iblancasa/sinfonier-dev-tool&quot;&gt;este repositorio&lt;/a&gt;. Como podrás comprobar, es un fork del de “Sinfonier” (que a su vez es un fork de otro). Cuando traté de ejecutar los test en la máquina virtual, todos fallaban debido a que faltaban parámetros y algunas cosas para poder ejecutar Maven desde terminal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;cmo-ejecuto&quot;&gt;¿Cómo ejecuto?&lt;/h4&gt;
+&lt;p&gt;Ve al directorio raíz del repositorio que has clonado y ejecuta &lt;code&gt;mvn package&lt;/code&gt;. Se descargarán las dependencias y ejecutarán los test. Si quieres saber cómo cambiar de ejecutar los test de los ficheros Java a los de Python, &lt;a href=&quot;http://blog.sinfonier-project.net/2016/01/sinfonier-development-virtual-machine_26.html&quot;&gt;echa un ojo a este artículo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;cmo-aado-nuevos-test&quot;&gt;¿Cómo añado nuevos test?&lt;/h4&gt;
+&lt;p&gt;Son test unitarios, mira los ficheros y los artículos que he ido enlazando.&lt;/p&gt;
+
+&lt;h2 id=&quot;algunos-artculos-interesantes-relacionados-con-sinfonier-son&quot;&gt;Algunos artículos interesantes relacionados con Sinfonier son:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2015/12/chatterbot-with-sinfonier.html&quot;&gt;Chatterbot with Sinfonier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2014/10/creando-informacion-dummy.html&quot;&gt;Creando información “dummy”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2014/10/have-i-been-pwned.html&quot;&gt;Have I been pwned?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2014/10/recibe-un-mensaje-emite-varios.html&quot;&gt;Recibe un mensaje, emite varios&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2014/11/ticktuples-ejecucion-de-codigo-por.html&quot;&gt;TickTuples: ejecución de código por intervalo de tiempo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2014/10/vuela-barato-con-sinfonier-y-ryanair.html&quot;&gt;Vuela barato con Sinfonier y Ryanair&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2015/08/using-mongolab-with-sinfonier.html&quot;&gt;Using Mongolab with Sinfonier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Sinfonier para el procesamiento del lenguaje natural: &lt;a href=&quot;http://blog.sinfonier-project.net/2015/08/sinfonier-para-procesamiento-del.html&quot;&gt;parte I&lt;/a&gt; y &lt;a href=&quot;http://blog.sinfonier-project.net/2015/10/sinfonier-para-procesamiento-del.html&quot;&gt;parte II&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sinfonier-project.net/2015/09/how-to-use-telegram-modules.html&quot;&gt;How to use Telegram modules?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y (al menos por ahora) no puedo ayudar mucho más. Aunque no he trabajado con Sinfonier y solo conozco el concepto, me pareció necesario un artículo como este para poder ejecutar los tests sin tener que utilizar una máquina virtual. Espero que haya sido útil.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://blog.iblancasa.com/article/tutoriales/sinfonier-como-ejecutarlo/&quot;&gt;Comentando Sinfonier y un arreglillo&lt;/a&gt; was originally published by Israel Blancas at &lt;a href=&quot;http://blog.iblancasa.com&quot;&gt;iblancasa - Blog&lt;/a&gt; on February 03, 2016.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
